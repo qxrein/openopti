@@ -21,9 +21,6 @@
           pip
           setuptools
           wheel
-          numpy
-          matplotlib
-          mpmath
           pygobject3
         ]);
       in {
@@ -65,8 +62,10 @@
 
             . "$VENV_DIR/bin/activate"
 
-            echo "To install meep, h5py, empy, simphony and other pip-only dependencies, run:"
-            echo "pip install --prefer-binary meep h5py empy simphony"
+            echo "To install simphony, meep, h5py, and empy, run:"
+            echo "pip install --prefer-binary meep h5py empy simphony PyGObject"
+            echo "or"
+            echo "pip install --prefer-binary -r requirements.txt"
           '';
         };
       }
