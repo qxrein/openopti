@@ -6,3 +6,9 @@
 !flake.lock
 
 !*.py
+!src/openopti/*.py
+!src/openopti/
+!src/
+
+!assets/
+!assets/OS.png
