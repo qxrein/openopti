@@ -28,12 +28,17 @@
           packages = [
             pythonEnv
 
+            pkgs.wrapGAppsHook
+
             pkgs.gtk4
             pkgs.gobject-introspection
             pkgs.gdk-pixbuf
             pkgs.pango
             pkgs.cairo
             pkgs.glib
+            pkgs.gnome.gnome-themes-extra
+
+            pkgs.vulkan-loader
 
             pkgs.pkg-config
             pkgs.cmake
@@ -62,8 +67,13 @@
 
             . "$VENV_DIR/bin/activate"
 
+            export GTK_PATH=$GTK_PATH:${pkgs.gnome.gnome-themes-extra}/lib/gtk-4.0
+            export XDG_DATA_DIRS=$XDG_DATA_DIRS:${pkgs.gnome.gnome-themes-extra}/share:${pkgs.gtk4}/share
+            export GDK_BACKEND=wayland
+
+            echo "You are in the Nix development shell with a Python virtual environment activated."
             echo "To install simphony, meep, h5py, and empy, run:"
-            echo "pip install --prefer-binary meep h5py empy simphony PyGObject"
+            echo "pip install --prefer-binary meep h5py empy simphony"
             echo "or"
             echo "pip install --prefer-binary -r requirements.txt"
           '';
