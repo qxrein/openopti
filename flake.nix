@@ -76,6 +76,7 @@
             echo "pip install --prefer-binary meep h5py empy simphony"
             echo "or"
             echo "pip install --prefer-binary -r requirements.txt"
+            alias run="python -m src.openopti.main"
           '';
         };
       }
