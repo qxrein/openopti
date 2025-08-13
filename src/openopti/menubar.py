@@ -1,4 +1,3 @@
-# src/openopti/menubar.py
 import gi
 gi.require_version("Gtk", "4.0")
 from gi.repository import Gtk, Gio, GObject
@@ -116,7 +115,8 @@ def create_menubar(window):
     window.add_action(action_component_library)
     
     action_preferences = Gio.SimpleAction.new("preferences", None)
-    action_preferences.connect("activate", lambda a, p: print("Preferences"))
+    action_preferences.connect("activate", show_preferences_dialog)
+    action_preferences._window = window
     window.add_action(action_preferences)
     
     action_run_simulation = Gio.SimpleAction.new("run_simulation", None)
@@ -262,6 +262,18 @@ def create_menubar(window):
 
     menubar = Gtk.PopoverMenuBar.new_from_model(menu_model)
     return menubar
+
+def show_preferences_dialog(action, param):
+    """Callback to show the preferences dialog."""
+    from .preferences_dialog import PreferencesDialog
+    
+    parent_window = None
+    
+    if hasattr(action, '_window'):
+        parent_window = action._window
+    
+    dialog = PreferencesDialog(parent=parent_window)
+    dialog.present()
 
 def show_about_dialog(action, param):
     """Callback to show a simple About dialog."""
