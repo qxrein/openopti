@@ -1,0 +1,229 @@
+/* OptiSystem Light Theme - Professional light theme similar to OptiSystem */
+
+/* Main window and general styling */
+window {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+}
+
+/* Header and menubar styling */
+headerbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #e9ecef;
+    color: #2c3e50;
+}
+
+headerbar button {
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+    color: #495057;
+}
+
+headerbar button:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+/* Menu styling */
+menubar {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+menubar menuitem {
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 8px 16px;
+}
+
+menubar menuitem:hover {
+    background-color: #e9ecef;
+}
+
+/* Button styling */
+button {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    color: #495057;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+button:active {
+    background-color: #dee2e6;
+}
+
+button.suggested-action {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+}
+
+button.suggested-action:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Entry and input styling */
+entry {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    color: #495057;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+entry:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* List and tree styling */
+list {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+list row {
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 8px 12px;
+}
+
+list row:hover {
+    background-color: #e9ecef;
+}
+
+list row:selected {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Notebook tabs */
+notebook tab {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    padding: 8px 16px;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+}
+
+notebook tab:checked {
+    background-color: #ffffff;
+    color: #2c3e50;
+    border-bottom: 2px solid #007bff;
+}
+
+/* Frame and separator styling */
+frame {
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+}
+
+separator {
+    background-color: #dee2e6;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: #f8f9fa;
+}
+
+scrollbar slider {
+    background-color: #dee2e6;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background-color: #adb5bd;
+}
+
+/* Dialog styling */
+dialog {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+dialog .dialog-content {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Canvas and drawing area */
+drawingarea {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+}
+
+/* Component library styling */
+.component-library {
+    background-color: #ffffff;
+    border-right: 1px solid #dee2e6;
+}
+
+.component-item {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.component-item:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+/* Properties panel styling */
+.properties-panel {
+    background-color: #ffffff;
+    border-left: 1px solid #dee2e6;
+}
+
+.property-row {
+    background-color: #ffffff;
+    border-bottom: 1px solid #f8f9fa;
+    padding: 8px 12px;
+}
+
+.property-row:hover {
+    background-color: #f8f9fa;
+}
+
+/* Status bar styling */
+statusbar {
+    background-color: #ffffff;
+    color: #6c757d;
+    border-top: 1px solid #dee2e6;
+    padding: 4px 12px;
+}
+
+/* Toolbar styling */
+toolbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    padding: 4px 8px;
+}
+
+toolbar button {
+    background-color: transparent;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+toolbar button:hover {
+    background-color: #e9ecef;
+}
+
+/* Color swatches for theme preview */
+.color-swatch {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 2px;
+} 

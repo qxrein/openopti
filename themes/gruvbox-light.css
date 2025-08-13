@@ -1,0 +1,229 @@
+/* Gruvbox Light Theme - Retro groove color scheme with light background */
+
+/* Main window and general styling */
+window {
+    background-color: #fbf1c7;
+    color: #3c3836;
+}
+
+/* Header and menubar styling */
+headerbar {
+    background-color: #ebdbb2;
+    border-bottom: 1px solid #d5c4a1;
+    color: #3c3836;
+}
+
+headerbar button {
+    background-color: transparent;
+    border: 1px solid #d5c4a1;
+    color: #504945;
+}
+
+headerbar button:hover {
+    background-color: #d5c4a1;
+    border-color: #bdae93;
+}
+
+/* Menu styling */
+menubar {
+    background-color: #ebdbb2;
+    color: #3c3836;
+}
+
+menubar menuitem {
+    background-color: #ebdbb2;
+    color: #3c3836;
+    padding: 8px 16px;
+}
+
+menubar menuitem:hover {
+    background-color: #d5c4a1;
+}
+
+/* Button styling */
+button {
+    background-color: #ebdbb2;
+    border: 1px solid #d5c4a1;
+    color: #504945;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #d5c4a1;
+    border-color: #bdae93;
+}
+
+button:active {
+    background-color: #bdae93;
+}
+
+button.suggested-action {
+    background-color: #98971a;
+    border-color: #98971a;
+    color: #fbf1c7;
+}
+
+button.suggested-action:hover {
+    background-color: #b8bb26;
+    border-color: #b8bb26;
+}
+
+/* Entry and input styling */
+entry {
+    background-color: #fbf1c7;
+    border: 1px solid #d5c4a1;
+    color: #3c3836;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+entry:focus {
+    border-color: #98971a;
+    box-shadow: 0 0 0 2px rgba(152, 151, 26, 0.25);
+}
+
+/* List and tree styling */
+list {
+    background-color: #fbf1c7;
+    color: #3c3836;
+}
+
+list row {
+    background-color: #fbf1c7;
+    color: #3c3836;
+    padding: 8px 12px;
+}
+
+list row:hover {
+    background-color: #ebdbb2;
+}
+
+list row:selected {
+    background-color: #98971a;
+    color: #fbf1c7;
+}
+
+/* Notebook tabs */
+notebook tab {
+    background-color: #ebdbb2;
+    color: #665c54;
+    padding: 8px 16px;
+    border: 1px solid #d5c4a1;
+    border-bottom: none;
+}
+
+notebook tab:checked {
+    background-color: #fbf1c7;
+    color: #3c3836;
+    border-bottom: 2px solid #98971a;
+}
+
+/* Frame and separator styling */
+frame {
+    border: 1px solid #d5c4a1;
+    background-color: #fbf1c7;
+}
+
+separator {
+    background-color: #d5c4a1;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: #ebdbb2;
+}
+
+scrollbar slider {
+    background-color: #d5c4a1;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background-color: #bdae93;
+}
+
+/* Dialog styling */
+dialog {
+    background-color: #fbf1c7;
+    color: #3c3836;
+}
+
+dialog .dialog-content {
+    background-color: #fbf1c7;
+    padding: 20px;
+}
+
+/* Canvas and drawing area */
+drawingarea {
+    background-color: #fbf1c7;
+    border: 1px solid #d5c4a1;
+}
+
+/* Component library styling */
+.component-library {
+    background-color: #fbf1c7;
+    border-right: 1px solid #d5c4a1;
+}
+
+.component-item {
+    background-color: #fbf1c7;
+    border: 1px solid #d5c4a1;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.component-item:hover {
+    background-color: #ebdbb2;
+    border-color: #bdae93;
+}
+
+/* Properties panel styling */
+.properties-panel {
+    background-color: #fbf1c7;
+    border-left: 1px solid #d5c4a1;
+}
+
+.property-row {
+    background-color: #fbf1c7;
+    border-bottom: 1px solid #ebdbb2;
+    padding: 8px 12px;
+}
+
+.property-row:hover {
+    background-color: #ebdbb2;
+}
+
+/* Status bar styling */
+statusbar {
+    background-color: #ebdbb2;
+    color: #665c54;
+    border-top: 1px solid #d5c4a1;
+    padding: 4px 12px;
+}
+
+/* Toolbar styling */
+toolbar {
+    background-color: #ebdbb2;
+    border-bottom: 1px solid #d5c4a1;
+    padding: 4px 8px;
+}
+
+toolbar button {
+    background-color: transparent;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+toolbar button:hover {
+    background-color: #d5c4a1;
+}
+
+/* Color swatches for theme preview */
+.color-swatch {
+    background-color: #ebdbb2;
+    border: 1px solid #d5c4a1;
+    border-radius: 2px;
+} 

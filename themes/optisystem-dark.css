@@ -1,0 +1,229 @@
+/* OptiSystem Dark Theme - Professional dark theme similar to OptiSystem */
+
+/* Main window and general styling */
+window {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+
+/* Header and menubar styling */
+headerbar {
+    background-color: #2d2d30;
+    border-bottom: 1px solid #3f3f46;
+    color: #d4d4d4;
+}
+
+headerbar button {
+    background-color: transparent;
+    border: 1px solid #3f3f46;
+    color: #cccccc;
+}
+
+headerbar button:hover {
+    background-color: #3f3f46;
+    border-color: #505050;
+}
+
+/* Menu styling */
+menubar {
+    background-color: #2d2d30;
+    color: #d4d4d4;
+}
+
+menubar menuitem {
+    background-color: #2d2d30;
+    color: #d4d4d4;
+    padding: 8px 16px;
+}
+
+menubar menuitem:hover {
+    background-color: #3f3f46;
+}
+
+/* Button styling */
+button {
+    background-color: #2d2d30;
+    border: 1px solid #3f3f46;
+    color: #cccccc;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3f3f46;
+    border-color: #505050;
+}
+
+button:active {
+    background-color: #505050;
+}
+
+button.suggested-action {
+    background-color: #007acc;
+    border-color: #007acc;
+    color: #ffffff;
+}
+
+button.suggested-action:hover {
+    background-color: #005a9e;
+    border-color: #005a9e;
+}
+
+/* Entry and input styling */
+entry {
+    background-color: #1e1e1e;
+    border: 1px solid #3f3f46;
+    color: #d4d4d4;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+entry:focus {
+    border-color: #007acc;
+    box-shadow: 0 0 0 2px rgba(0, 122, 204, 0.25);
+}
+
+/* List and tree styling */
+list {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+
+list row {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    padding: 8px 12px;
+}
+
+list row:hover {
+    background-color: #2d2d30;
+}
+
+list row:selected {
+    background-color: #007acc;
+    color: #ffffff;
+}
+
+/* Notebook tabs */
+notebook tab {
+    background-color: #2d2d30;
+    color: #cccccc;
+    padding: 8px 16px;
+    border: 1px solid #3f3f46;
+    border-bottom: none;
+}
+
+notebook tab:checked {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    border-bottom: 2px solid #007acc;
+}
+
+/* Frame and separator styling */
+frame {
+    border: 1px solid #3f3f46;
+    background-color: #1e1e1e;
+}
+
+separator {
+    background-color: #3f3f46;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: #2d2d30;
+}
+
+scrollbar slider {
+    background-color: #3f3f46;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background-color: #505050;
+}
+
+/* Dialog styling */
+dialog {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+
+dialog .dialog-content {
+    background-color: #1e1e1e;
+    padding: 20px;
+}
+
+/* Canvas and drawing area */
+drawingarea {
+    background-color: #1e1e1e;
+    border: 1px solid #3f3f46;
+}
+
+/* Component library styling */
+.component-library {
+    background-color: #1e1e1e;
+    border-right: 1px solid #3f3f46;
+}
+
+.component-item {
+    background-color: #1e1e1e;
+    border: 1px solid #3f3f46;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.component-item:hover {
+    background-color: #2d2d30;
+    border-color: #505050;
+}
+
+/* Properties panel styling */
+.properties-panel {
+    background-color: #1e1e1e;
+    border-left: 1px solid #3f3f46;
+}
+
+.property-row {
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #2d2d30;
+    padding: 8px 12px;
+}
+
+.property-row:hover {
+    background-color: #2d2d30;
+}
+
+/* Status bar styling */
+statusbar {
+    background-color: #2d2d30;
+    color: #cccccc;
+    border-top: 1px solid #3f3f46;
+    padding: 4px 12px;
+}
+
+/* Toolbar styling */
+toolbar {
+    background-color: #2d2d30;
+    border-bottom: 1px solid #3f3f46;
+    padding: 4px 8px;
+}
+
+toolbar button {
+    background-color: transparent;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+toolbar button:hover {
+    background-color: #3f3f46;
+}
+
+/* Color swatches for theme preview */
+.color-swatch {
+    background-color: #2d2d30;
+    border: 1px solid #3f3f46;
+    border-radius: 2px;
+} 

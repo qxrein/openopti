@@ -1,0 +1,212 @@
+window {
+    background-color: #f5f1eb;
+    color: #3c2f2f;
+}
+
+headerbar {
+    background-color: #e8d5c4;
+    border-bottom: 1px solid #d4c4b7;
+    color: #3c2f2f;
+}
+
+headerbar button {
+    background-color: transparent;
+    border: 1px solid #c4b5a6;
+    color: #5d4e37;
+}
+
+headerbar button:hover {
+    background-color: #d4c4b7;
+    border-color: #b4a596;
+}
+
+menubar {
+    background-color: #e8d5c4;
+    color: #3c2f2f;
+}
+
+menubar menuitem {
+    background-color: #e8d5c4;
+    color: #3c2f2f;
+    padding: 8px 16px;
+}
+
+menubar menuitem:hover {
+    background-color: #d4c4b7;
+}
+
+/* Button styling */
+button {
+    background-color: #e8d5c4;
+    border: 1px solid #c4b5a6;
+    color: #5d4e37;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #d4c4b7;
+    border-color: #b4a596;
+}
+
+button:active {
+    background-color: #c4b5a6;
+}
+
+button.suggested-action {
+    background-color: #8b6f47;
+    border-color: #8b6f47;
+    color: #f5f1eb;
+}
+
+button.suggested-action:hover {
+    background-color: #7a5f36;
+    border-color: #7a5f36;
+}
+
+entry {
+    background-color: #f5f1eb;
+    border: 1px solid #c4b5a6;
+    color: #3c2f2f;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+entry:focus {
+    border-color: #8b6f47;
+    box-shadow: 0 0 0 2px rgba(139, 111, 71, 0.25);
+}
+
+list {
+    background-color: #f5f1eb;
+    color: #3c2f2f;
+}
+
+list row {
+    background-color: #f5f1eb;
+    color: #3c2f2f;
+    padding: 8px 12px;
+}
+
+list row:hover {
+    background-color: #e8d5c4;
+}
+
+list row:selected {
+    background-color: #8b6f47;
+    color: #f5f1eb;
+}
+
+notebook tab {
+    background-color: #e8d5c4;
+    color: #5d4e37;
+    padding: 8px 16px;
+    border: 1px solid #c4b5a6;
+    border-bottom: none;
+}
+
+notebook tab:checked {
+    background-color: #f5f1eb;
+    color: #3c2f2f;
+    border-bottom: 2px solid #8b6f47;
+}
+
+frame {
+    border: 1px solid #c4b5a6;
+    background-color: #f5f1eb;
+}
+
+separator {
+    background-color: #c4b5a6;
+}
+
+scrollbar {
+    background-color: #e8d5c4;
+}
+
+scrollbar slider {
+    background-color: #c4b5a6;
+    border-radius: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: #b4a596;
+}
+
+dialog {
+    background-color: #f5f1eb;
+    color: #3c2f2f;
+}
+
+dialog .dialog-content {
+    background-color: #f5f1eb;
+    padding: 20px;
+}
+
+drawingarea {
+    background-color: #f5f1eb;
+    border: 1px solid #c4b5a6;
+}
+
+.component-library {
+    background-color: #f5f1eb;
+    border-right: 1px solid #c4b5a6;
+}
+
+.component-item {
+    background-color: #f5f1eb;
+    border: 1px solid #c4b5a6;
+    border-radius: 6px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.component-item:hover {
+    background-color: #e8d5c4;
+    border-color: #b4a596;
+}
+
+.properties-panel {
+    background-color: #f5f1eb;
+    border-left: 1px solid #c4b5a6;
+}
+
+.property-row {
+    background-color: #f5f1eb;
+    border-bottom: 1px solid #e8d5c4;
+    padding: 8px 12px;
+}
+
+.property-row:hover {
+    background-color: #e8d5c4;
+}
+
+statusbar {
+    background-color: #e8d5c4;
+    color: #5d4e37;
+    border-top: 1px solid #c4b5a6;
+    padding: 4px 12px;
+}
+
+toolbar {
+    background-color: #e8d5c4;
+    border-bottom: 1px solid #c4b5a6;
+    padding: 4px 8px;
+}
+
+toolbar button {
+    background-color: transparent;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 6px;
+}
+
+toolbar button:hover {
+    background-color: #d4c4b7;
+}
+
+.color-swatch {
+    background-color: #e8d5c4;
+    border: 1px solid #c4b5a6;
+    border-radius: 3px;
+} 

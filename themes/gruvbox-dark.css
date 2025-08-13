@@ -1,0 +1,211 @@
+window {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+headerbar {
+    background-color: #3c3836;
+    border-bottom: 1px solid #504945;
+    color: #ebdbb2;
+}
+
+headerbar button {
+    background-color: transparent;
+    border: 1px solid #504945;
+    color: #d5c4a1;
+}
+
+headerbar button:hover {
+    background-color: #504945;
+    border-color: #665c54;
+}
+
+menubar {
+    background-color: #3c3836;
+    color: #ebdbb2;
+}
+
+menubar menuitem {
+    background-color: #3c3836;
+    color: #ebdbb2;
+    padding: 8px 16px;
+}
+
+menubar menuitem:hover {
+    background-color: #504945;
+}
+
+button {
+    background-color: #3c3836;
+    border: 1px solid #504945;
+    color: #d5c4a1;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #504945;
+    border-color: #665c54;
+}
+
+button:active {
+    background-color: #665c54;
+}
+
+button.suggested-action {
+    background-color: #98971a;
+    border-color: #98971a;
+    color: #ebdbb2;
+}
+
+button.suggested-action:hover {
+    background-color: #b8bb26;
+    border-color: #b8bb26;
+}
+
+entry {
+    background-color: #282828;
+    border: 1px solid #504945;
+    color: #ebdbb2;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+entry:focus {
+    border-color: #98971a;
+    box-shadow: 0 0 0 2px rgba(152, 151, 26, 0.25);
+}
+
+list {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+list row {
+    background-color: #282828;
+    color: #ebdbb2;
+    padding: 8px 12px;
+}
+
+list row:hover {
+    background-color: #3c3836;
+}
+
+list row:selected {
+    background-color: #98971a;
+    color: #ebdbb2;
+}
+
+notebook tab {
+    background-color: #3c3836;
+    color: #a89984;
+    padding: 8px 16px;
+    border: 1px solid #504945;
+    border-bottom: none;
+}
+
+notebook tab:checked {
+    background-color: #282828;
+    color: #ebdbb2;
+    border-bottom: 2px solid #98971a;
+}
+
+frame {
+    border: 1px solid #504945;
+    background-color: #282828;
+}
+
+separator {
+    background-color: #504945;
+}
+
+scrollbar {
+    background-color: #3c3836;
+}
+
+scrollbar slider {
+    background-color: #504945;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background-color: #665c54;
+}
+
+dialog {
+    background-color: #282828;
+    color: #ebdbb2;
+}
+
+dialog .dialog-content {
+    background-color: #282828;
+    padding: 20px;
+}
+
+drawingarea {
+    background-color: #282828;
+    border: 1px solid #504945;
+}
+
+.component-library {
+    background-color: #282828;
+    border-right: 1px solid #504945;
+}
+
+.component-item {
+    background-color: #282828;
+    border: 1px solid #504945;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.component-item:hover {
+    background-color: #3c3836;
+    border-color: #665c54;
+}
+
+.properties-panel {
+    background-color: #282828;
+    border-left: 1px solid #504945;
+}
+
+.property-row {
+    background-color: #282828;
+    border-bottom: 1px solid #3c3836;
+    padding: 8px 12px;
+}
+
+.property-row:hover {
+    background-color: #3c3836;
+}
+
+statusbar {
+    background-color: #3c3836;
+    color: #a89984;
+    border-top: 1px solid #504945;
+    padding: 4px 12px;
+}
+
+toolbar {
+    background-color: #3c3836;
+    border-bottom: 1px solid #504945;
+    padding: 4px 8px;
+}
+
+toolbar button {
+    background-color: transparent;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+toolbar button:hover {
+    background-color: #504945;
+}
+
+.color-swatch {
+    background-color: #3c3836;
+    border: 1px solid #504945;
+    border-radius: 2px;
+} 

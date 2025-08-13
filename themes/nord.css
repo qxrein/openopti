@@ -1,0 +1,229 @@
+/* Nord Theme - Arctic-inspired color palette */
+
+/* Main window and general styling */
+window {
+    background-color: #2e3440;
+    color: #eceff4;
+}
+
+/* Header and menubar styling */
+headerbar {
+    background-color: #3b4252;
+    border-bottom: 1px solid #434c5e;
+    color: #eceff4;
+}
+
+headerbar button {
+    background-color: transparent;
+    border: 1px solid #434c5e;
+    color: #d8dee9;
+}
+
+headerbar button:hover {
+    background-color: #434c5e;
+    border-color: #4c566a;
+}
+
+/* Menu styling */
+menubar {
+    background-color: #3b4252;
+    color: #eceff4;
+}
+
+menubar menuitem {
+    background-color: #3b4252;
+    color: #eceff4;
+    padding: 8px 16px;
+}
+
+menubar menuitem:hover {
+    background-color: #434c5e;
+}
+
+/* Button styling */
+button {
+    background-color: #3b4252;
+    border: 1px solid #434c5e;
+    color: #d8dee9;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #434c5e;
+    border-color: #4c566a;
+}
+
+button:active {
+    background-color: #4c566a;
+}
+
+button.suggested-action {
+    background-color: #5e81ac;
+    border-color: #5e81ac;
+    color: #eceff4;
+}
+
+button.suggested-action:hover {
+    background-color: #81a1c1;
+    border-color: #81a1c1;
+}
+
+/* Entry and input styling */
+entry {
+    background-color: #2e3440;
+    border: 1px solid #434c5e;
+    color: #eceff4;
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+entry:focus {
+    border-color: #5e81ac;
+    box-shadow: 0 0 0 2px rgba(94, 129, 172, 0.25);
+}
+
+/* List and tree styling */
+list {
+    background-color: #2e3440;
+    color: #eceff4;
+}
+
+list row {
+    background-color: #2e3440;
+    color: #eceff4;
+    padding: 8px 12px;
+}
+
+list row:hover {
+    background-color: #3b4252;
+}
+
+list row:selected {
+    background-color: #5e81ac;
+    color: #eceff4;
+}
+
+/* Notebook tabs */
+notebook tab {
+    background-color: #3b4252;
+    color: #d8dee9;
+    padding: 8px 16px;
+    border: 1px solid #434c5e;
+    border-bottom: none;
+}
+
+notebook tab:checked {
+    background-color: #2e3440;
+    color: #eceff4;
+    border-bottom: 2px solid #5e81ac;
+}
+
+/* Frame and separator styling */
+frame {
+    border: 1px solid #434c5e;
+    background-color: #2e3440;
+}
+
+separator {
+    background-color: #434c5e;
+}
+
+/* Scrollbar styling */
+scrollbar {
+    background-color: #3b4252;
+}
+
+scrollbar slider {
+    background-color: #434c5e;
+    border-radius: 4px;
+}
+
+scrollbar slider:hover {
+    background-color: #4c566a;
+}
+
+/* Dialog styling */
+dialog {
+    background-color: #2e3440;
+    color: #eceff4;
+}
+
+dialog .dialog-content {
+    background-color: #2e3440;
+    padding: 20px;
+}
+
+/* Canvas and drawing area */
+drawingarea {
+    background-color: #2e3440;
+    border: 1px solid #434c5e;
+}
+
+/* Component library styling */
+.component-library {
+    background-color: #2e3440;
+    border-right: 1px solid #434c5e;
+}
+
+.component-item {
+    background-color: #2e3440;
+    border: 1px solid #434c5e;
+    border-radius: 4px;
+    padding: 8px;
+    margin: 4px;
+}
+
+.component-item:hover {
+    background-color: #3b4252;
+    border-color: #4c566a;
+}
+
+/* Properties panel styling */
+.properties-panel {
+    background-color: #2e3440;
+    border-left: 1px solid #434c5e;
+}
+
+.property-row {
+    background-color: #2e3440;
+    border-bottom: 1px solid #3b4252;
+    padding: 8px 12px;
+}
+
+.property-row:hover {
+    background-color: #3b4252;
+}
+
+/* Status bar styling */
+statusbar {
+    background-color: #3b4252;
+    color: #d8dee9;
+    border-top: 1px solid #434c5e;
+    padding: 4px 12px;
+}
+
+/* Toolbar styling */
+toolbar {
+    background-color: #3b4252;
+    border-bottom: 1px solid #434c5e;
+    padding: 4px 8px;
+}
+
+toolbar button {
+    background-color: transparent;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+toolbar button:hover {
+    background-color: #434c5e;
+}
+
+/* Color swatches for theme preview */
+.color-swatch {
+    background-color: #3b4252;
+    border: 1px solid #434c5e;
+    border-radius: 2px;
+} 
