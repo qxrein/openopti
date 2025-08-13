@@ -147,6 +147,17 @@ drawingarea {
     border: 1px solid #504945;
 }
 
+.design-canvas {
+    background-color: #282828;
+    border: 1px solid #504945;
+    border-radius: 4px;
+}
+
+.design-canvas:focus {
+    border-color: #98971a;
+    box-shadow: 0 0 0 2px rgba(152, 151, 26, 0.25);
+}
+
 .component-library {
     background-color: #282828;
     border-right: 1px solid #504945;
