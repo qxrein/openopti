@@ -1,0 +1,423 @@
+window {
+    background-color: #ffffff;
+    color: #2c3e50;
+}
+
+.app-header {
+    background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
+    border-bottom: 2px solid #1abc9c;
+    padding: 4px 16px;
+    min-height: 36px;
+}
+
+.app-header button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0 2px;
+}
+
+.app-header button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.logo-container {
+    background: transparent;
+    padding: 2px 0;
+}
+
+.app-logo {
+    color: #1abc9c;
+    background: transparent;
+}
+
+.app-title {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    background: transparent;
+    margin-left: 4px;
+}
+
+.header-button {
+    background-color: #1abc9c;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: 500;
+}
+
+.header-button:hover {
+    background-color: #16a085;
+}
+
+menubar {
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #bdc3c7;
+    padding: 2px 0;
+}
+
+menubar menuitem {
+    background-color: transparent;
+    color: #2c3e50;
+    padding: 6px 12px;
+    border-radius: 3px;
+    margin: 0 2px;
+}
+
+menubar menuitem:hover {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.main-window {
+    background-color: #ffffff;
+    min-width: 800px;
+    min-height: 600px;
+}
+
+.sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+    min-width: 250px;
+}
+
+.sidebar-header {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 12px 16px;
+    font-weight: 600;
+    font-size: 14px;
+    border-bottom: 1px solid #2c3e50;
+}
+
+.sidebar-tab {
+    background-color: transparent;
+    color: #6c757d;
+    border: none;
+    border-radius: 3px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 400;
+    margin: 1px;
+    min-width: 60px;
+}
+
+.sidebar-tab:checked {
+    background-color: #e9ecef;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+
+.sidebar-tab:hover:not(:checked) {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.panel-stack {
+    background-color: #ffffff;
+    border: none;
+}
+
+.panel-content {
+    background-color: #ffffff;
+    padding: 12px;
+    min-height: 200px;
+}
+
+.canvas-container {
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    margin: 8px;
+    border-radius: 6px;
+    min-width: 400px;
+    min-height: 300px;
+}
+
+.canvas-toolbar {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #e9ecef;
+    padding: 8px 12px;
+    border-radius: 6px 6px 0 0;
+}
+
+.tool-group {
+    background-color: transparent;
+    border-right: 1px solid #dee2e6;
+    padding: 0 8px;
+    margin-right: 8px;
+}
+
+.tool-button {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 6px 8px;
+    margin: 0 2px;
+    font-size: 11px;
+}
+
+.tool-button:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+.tool-button:checked {
+    background-color: #3498db;
+    color: #ffffff;
+    border-color: #3498db;
+}
+
+.design-canvas {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 0 0 6px 6px;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+.selection-bar {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    border: 1px solid #1a252f;
+    border-right: none;
+    border-radius: 8px 0 0 8px;
+    padding: 4px 2px;
+    min-width: 36px;
+    box-shadow: -2px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.selection-tool-button {
+    background-color: transparent;
+    color: #ecf0f1;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 1px 2px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 10px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.selection-tool-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+.selection-tool-button:checked {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: #ffffff;
+    border-color: #3498db;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+    transform: translateY(-1px);
+}
+
+.selection-tool-button:checked:hover {
+    background: linear-gradient(135deg, #2980b9 0%, #21618c 100%);
+    border-color: #2980b9;
+    box-shadow: 0 3px 12px rgba(52, 152, 219, 0.4);
+}
+
+.zoom-button {
+    background-color: transparent;
+    color: #ecf0f1;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 1px 2px;
+    min-width: 32px;
+    min-height: 32px;
+    font-size: 10px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.zoom-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+.zoom-button:active {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(0px);
+}
+
+.tool-separator {
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 2px 4px;
+    min-height: 1px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: #e9ecef;
+    border-color: #adb5bd;
+}
+
+button:active {
+    background-color: #dee2e6;
+}
+
+entry {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px 12px;
+}
+
+entry:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+}
+
+combobox {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+spinbutton {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+
+checkbutton {
+    background-color: transparent;
+    color: #495057;
+    border: none;
+    padding: 4px 8px;
+}
+
+colorbutton {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+separator {
+    background-color: #dee2e6;
+    border: none;
+}
+
+progressbar {
+    background-color: #e9ecef;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+progressbar progress {
+    background-color: #3498db;
+    border-radius: 3px;
+}
+
+scrollbar {
+    background-color: #f8f9fa;
+    border: none;
+}
+
+scrollbar slider {
+    background-color: #dee2e6;
+    border-radius: 4px;
+    min-width: 12px;
+    min-height: 12px;
+}
+
+scrollbar slider:hover {
+    background-color: #adb5bd;
+}
+
+listbox {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+treeview {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+treeview row:selected {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+notebook {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+notebook tab {
+    background-color: #f8f9fa;
+    color: #6c757d;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    padding: 8px 16px;
+    border-radius: 4px 4px 0 0;
+}
+
+notebook tab:checked {
+    background-color: #ffffff;
+    color: #495057;
+    border-bottom: 1px solid #ffffff;
+}
+
+textview {
+    background-color: #ffffff;
+    color: #495057;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+plot {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+.status-ready {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.status-error {
+    color: #dc3545;
+    font-weight: 500;
+}
+
+.status-warning {
+    color: #ffc107;
+    font-weight: 500;
+} 
+
